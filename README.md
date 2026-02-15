@@ -1,5 +1,7 @@
 # Nextbase Auto
 
+**Version 1.0.0**
+
 Automated form filling tool for Nextbase dashcam incident reporting to South Yorkshire Police. Uses Python, Selenium, and OpenAI Vision to automatically fill incident report forms with data extracted from dashcam images.
 
 ## Features
