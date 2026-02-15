@@ -1,13 +1,39 @@
 # Nextbase Auto
 
-**Version 1.0.0**
+**Version 1.1.0**
 
-Automated form filling tool for Nextbase dashcam incident reporting to South Yorkshire Police. Uses Python, Selenium, and OpenAI Vision to automatically fill incident report forms with data extracted from dashcam images.
+Automated form filling tool for Nextbase incident reporting to South Yorkshire Police. Report bad parking via **Telegram bot** (mobile-friendly) or **CLI tool** (with AI auto-detection).
+
+## Two Ways to Use
+
+### 🤖 Telegram Bot (Recommended for Mobile)
+- Send photos from your phone
+- Answer simple questions
+- Get formatted data to copy-paste into the form
+- **No OpenAI API key required**
+
+[📱 Telegram Bot Setup Guide →](TELEGRAM_BOT.md)
+
+### 💻 CLI Tool (Desktop with AI)
+- Automated browser form filling
+- AI-powered image analysis (OpenAI Vision)
+- Auto-detect registration, color, date/time
+- Requires Chrome browser
+
+[⌨️ CLI Setup Guide →](#cli-tool-usage)
 
 ## Features
 
+### Telegram Bot
+- 📱 **Mobile-Friendly** - Use from your phone via Telegram
+- ❓ **Interactive Questions** - Bot asks for all details
+- 📋 **Easy Copy-Paste** - Formatted output for quick form filling
+- 🔒 **Privacy-First** - No data stored, temporary only
+- 🚫 **No API Keys** - Works without OpenAI
+
+### CLI Tool
 - 🚗 **Automated Form Filling** - Fills all personal and incident details automatically
-- 📸 **Image Analysis** - Extracts date, time, vehicle registration, and colour from dashcam images
+- 📸 **Image Analysis** - Extracts date, time, vehicle registration, and colour from photos
 - 🤖 **OpenAI Vision Integration** - Uses GPT-4o Vision to intelligently analyze images
 - 📋 **Template System** - Pre-written incident descriptions referencing Highway Code rules
 - 🔄 **Multi-Image Upload** - Support for uploading multiple images per incident
@@ -15,6 +41,26 @@ Automated form filling tool for Nextbase dashcam incident reporting to South Yor
 - 🎯 **Command-Line Interface** - Simple, scriptable interface for quick submissions
 
 ## Quick Start
+
+### Option 1: Telegram Bot (Mobile)
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Get your bot token from @BotFather on Telegram
+
+# 3. Create .env file
+cp .env.example .env
+# Add your TELEGRAM_BOT_TOKEN to .env
+
+# 4. Run the bot
+python3 telegram_bot.py
+```
+
+See [TELEGRAM_BOT.md](TELEGRAM_BOT.md) for full setup guide.
+
+### Option 2: CLI Tool (Desktop)
 
 ```bash
 # 1. Install dependencies (Linux/Ubuntu)
@@ -30,6 +76,8 @@ cp form_data.txt.example form_data.txt
 # 3. Submit an incident (auto-detect everything from image)
 python fill_form.py 'Hunter House Road' auto auto auto photo.jpg
 ```
+
+## CLI Tool Usage
 
 ## Setup
 

@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-02-15
+
+### Added
+- **Telegram Bot** - Mobile-friendly incident reporting via Telegram
+  - Interactive conversation flow with 19 questions
+  - Photo upload support
+  - Manual data entry (no AI/OpenAI required)
+  - Mobile-optimized copy-paste output format
+  - Privacy notice for personal data collection
+  - Split output into 4 easy-to-copy messages
+  - Keyboard buttons for incident type and gender selection
+  - Automatic day-of-week calculation from date
+  - `/start`, `/help`, `/cancel` commands
+- Documentation: `TELEGRAM_BOT.md` setup guide
+- Privacy notice in bot conversation flow
+- Error handling in bot functions
+
+### Changed
+- Updated README.md to highlight both Telegram bot and CLI tool options
+- Version bumped to 1.1.0
+- Clarified language: "bad parking" instead of "traffic incidents" 
+- Removed "dashcam" references, updated to "photos from mobile phone"
+- Added `python-telegram-bot` to requirements.txt
+- Updated `.env.example` with `TELEGRAM_BOT_TOKEN` field
+
 ## [1.0.0] - 2026-02-15
 
 ### Added
@@ -40,14 +65,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
+- Cloud deployment guide for 24/7 bot availability
 - Support for additional police forces/Nextbase portals
 - Video file support (extract frames automatically)
 - Batch processing for multiple incidents
 - Configuration file validation
 - More incident templates (other Highway Code violations)
+- Bot conversation state persistence
+- Multi-language support
 
 ---
 
 ## Version History
 
-- **1.0.0** (2026-02-15) - Initial release
+- **1.1.0** (2026-02-15) - Telegram bot for mobile reporting
+- **1.0.0** (2026-02-15) - Initial release with CLI tool
