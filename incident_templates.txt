@@ -1,0 +1,33 @@
+# Incident Description Templates
+# Format: TYPE=Description text
+
+corner="I found the above vehicle parked in a manner that failed to meet the rules laid out in the Highway Code, creating an unnecessary obstruction of the road and a danger to vulnerable road users. 
+
+Rule 243 of the highway code states DO NOT STOP or park opposite or within 10m (32 feet) of a junction, opposite a traffic island, or on a bend and "DO NOT stop or park where the kerb has been lowered to help wheelchair users and powered mobility vehicles." 
+
+The vehicle was obscuring visibility at a junction causing a danger for vulnerable road users such as motorcyclists, cyclists, and pedestrians who are put at more risk as a result of poor junction visibility. Rule 242 of the Highway code states “You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes an unnecessary obstruction of the road.”. It was also covering a dropped kerb.
+
+Offence code: Leave a motor vehicle in dangerous position RT88508. 
+
+No notes or badges were displayed in the vehicle. No loading or unloading was taking place."
+
+pavement="I found the above vehicle parked in a manner that failed to meet the rules laid out in the Highway Code, creating an unnecessary obstruction of the road and a danger to vulnerable road users. 
+
+The car was parked partly on the footway, which constitutes part of ‘the road’ making it impossible for wheelchair users and prams to pass.
+
+Rule 145 states “You MUST NOT drive on or over a pavement, footpath or bridleway except to gain lawful access to property, or in the case of an  emergency”.
+
+Rule 244 states “You MUST NOT park partially or wholly on the pavement in London, and should not do so elsewhere unless signs permit it. Parking on the pavement can obstruct and seriously 
+inconvenience pedestrians, people in wheelchairs or with visual impairments and people with prams or pushchairs” 
+
+Rule 243 of the highway code states DO NOT STOP or park opposite or within 10m (32 feet) of a junction, opposite a traffic island, or on a bend 
+and "DO NOT stop or park where the kerb has been lowered to help wheelchair users and powered mobility vehicles." 
+
+The vehicle was causing a danger for vulnerable road users such as motorcyclists, cyclists, and pedestrians who are put at more risk as a result of poor junction visibility.
+
+Rule 242 of the Highway code states “You MUST NOT leave your vehicle or trailer in a dangerous position or where it causes an unnecessary 
+obstruction of the road.”
+
+Offence code: Leave a motor vehicle in dangerous position RT88508.
+
+No notes or badges were displayed in the vehicle. No loading or unloading was taking place."

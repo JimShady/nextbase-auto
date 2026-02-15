@@ -1,0 +1,20 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+page_source.html
+
+# Personal data - DO NOT COMMIT
+form_data.txt
+
+# Test images
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov

@@ -1,0 +1,55 @@
+# Nextbase Form Data - TEMPLATE
+# Copy this file to form_data.txt and fill in your details
+# NOTE: Fields marked with [AUTO] will be automatically filled by the script
+# NOTE: Fields marked with [EXTRACT_FROM_IMAGE] will be extracted from dashcam image
+
+# DECLARATION SECTION
+signature=Your Full Name
+date_today=[AUTO]
+
+# PERSONAL INFORMATION
+first_name=Your First Name
+last_name=Your Last Name
+email=your.email@example.com
+phone=07123456789
+
+# ADDRESS
+address1=123 Your Street
+address2=Your Area
+address_county=Your County
+address_postcode=AB1 2CD
+
+# ADDITIONAL PERSONAL INFO
+occupation=Your Occupation
+date_of_birth=01/01/1980
+place_of_birth=Your City
+former_name=Not applicable
+gender=Male
+
+# INCIDENT DETAILS
+location=South Yorkshire
+traffic_offence=
+incident_location=
+incident_location_exact=
+travelling_location=
+incident_date=[EXTRACT_FROM_IMAGE]
+incident_day=[EXTRACT_FROM_IMAGE]
+incident_time=[EXTRACT_FROM_IMAGE]
+
+# VEHICLE INFORMATION
+incident_car_registration=AB12XYZ
+incident_car_colour=silver
+incident_car_make=car
+incident_car_model=Not known
+
+# INCIDENT DESCRIPTION
+incident_description=
+
+# FILE UPLOADS (comma-separated paths to files)
+upload_files=/path/to/your/image.jpg
+
+# IMAGE ANALYSIS
+# Path to dashcam image/video screenshot to extract incident details from
+dashcam_image_path=/path/to/your/image.jpg
+# OpenAI API key for image analysis (optional - uses OCR if not provided)
+openai_api_key=
